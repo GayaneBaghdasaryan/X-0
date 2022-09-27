@@ -6,7 +6,6 @@ import Boxes from './Boxes';
 const MyInputs = () => {
  const [number, setNumbers] = useState(0)
  const [boxes, setBoxes] = useState([])
- console.log(boxes);
  return(
    <div className='main'>
     <input 
